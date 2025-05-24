@@ -1,0 +1,25 @@
+{
+  "name": "turkey-cities-data",
+  "version": "1.0.0",
+  "description": "Türkiye şehirleri verisi: plaka, koordinat, bölge ve nüfus bilgileri.",
+  "type": "module",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "cities.json"
+  ],
+  "keywords": [
+    "turkey",
+    "cities",
+    "json",
+    "nüfus",
+    "plaka",
+    "bölge"
+  ],
+  "author": "Senin Adın",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mevlutcelik/turkey-cities-data.git"
+  }
+}
