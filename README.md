@@ -12,7 +12,7 @@ npm install turkey-cities-data
 ## 🚀 Kullanım
 
 ```js
-import cities from "turkey-cities-data";
+import {cities} from "turkey-cities-data";
 
 console.log(cities[0]);
 /*

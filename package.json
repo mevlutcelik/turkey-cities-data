@@ -1,6 +1,6 @@
 {
   "name": "turkey-cities-data",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Türkiye şehirleri verisi: plaka, koordinat, bölge ve nüfus bilgileri.",
   "type": "module",
   "main": "index.js",
