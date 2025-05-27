@@ -6,7 +6,7 @@ Plaka, koordinatlar (lat/lon), nüfus (2024 ADNKS) ve coğrafi bölge bilgilerin
 ## 🔧 Kurulum
 
 ```bash
-npm install turkey-cities-data
+npm i turkey-cities-data
 ```
 
 ## 🚀 Kullanım
@@ -14,16 +14,18 @@ npm install turkey-cities-data
 ```js
 import {cities} from "turkey-cities-data";
 
-console.log(cities[0]);
+const istanbul = cities.get("istanbul");
+console.log(istanbul);
+
 /*
 {
-  id: 0,
-  slug: "adana",
-  label: "Adana",
-  plate: "01",
-  coord: { lat: 37.0, lon: 35.3213 },
-  region: { slug: "akdeniz", label: "Akdeniz" },
-  population: 2280484
+  id: 77,
+  slug: 'istanbul',
+  label: 'İstanbul',
+  coord: { lat: 41.0082, lon: 28.9784 },
+  plate: '34',
+  region: { slug: 'marmara', label: 'Marmara' },
+  population: 15701602
 }
 */
 ```
