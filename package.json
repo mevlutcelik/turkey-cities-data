@@ -5,6 +5,10 @@
   "type": "module",
   "main": "index.js",
   "types": "index.d.ts",
+  "scripts": {
+    "test": "node tests/index",
+    "test:get": "node tests/get"
+  },
   "files": [
     "index.js",
     "index.d.ts",

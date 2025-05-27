@@ -1215,3 +1215,11 @@ export const cities = [
     "population": 570826
   }
 ];
+
+const map = new Map(cities.map(city => [city.slug, city]));
+
+cities.get = function (slug) {
+  return map.get(slug) ?? null;
+};
+
+export default cities;
