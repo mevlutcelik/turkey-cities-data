@@ -1,6 +1,6 @@
 {
   "name": "turkey-cities-data",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "Türkiye şehirleri verisi: plaka, koordinat, bölge ve nüfus bilgileri.",
   "type": "module",
   "main": "index.js",
@@ -22,7 +22,7 @@
     "plaka",
     "bölge"
   ],
-  "author": "Senin Adın",
+  "author": "Mevlüt Çelik",
   "license": "MIT",
   "repository": {
     "type": "git",
